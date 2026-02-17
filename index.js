@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.use(express.json({ limit: '10mb' }));
+app.use(express.json({ limit: '50mb' }));
 
 const API_KEY = process.env.ANTHROPIC_API_KEY || '';
 
